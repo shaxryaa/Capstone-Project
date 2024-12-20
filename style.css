@@ -37,6 +37,11 @@ a{
 
 }
 
+a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .divider{
     width: 1504px;
     border: 2px 0px 0px 0px;
@@ -111,6 +116,7 @@ a{
     height: 277px;
     border-top: 2px ;
 }
+
 .about{
     width: 900px;
     height: 208px;
