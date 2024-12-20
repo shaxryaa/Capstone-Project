@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=MonteCarlo&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playball&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 2.2em;
+    background-color:#FFFFFF;
+    gap: 2rem;
+}
+
+.logo{
+    width: 50%;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    color: #000000;
+    font-family: "Playball", serif;
+    margin-left: 1em;
+    align-content: center;
+}
+a{
+    font-family: "Lexend Exa", serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 250;
+    align-content: center;
+
+}
+
+.divider{
+    width: 1504px;
+    border: 2px 0px 0px 0px;
+    border: 1px solid #00000029
+}
+.hero{
+    width: 1344px;
+    height: 1152px;
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+    border: 0px 0px 2px 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.hero h1{
+    font-family: "Lexend Exa", serif;
+    width: 1344px;
+    height: 240px;
+    font-family: Lexend Exa;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 120px;
+    color: #000000;
+}
+.hero-image{
+    width: 1344px;
+    height: 672px;
+    border-radius: 56px;
+    border-top: 2px;
+}
+.project-grid{
+    width: 1344px;
+    height: 1191px;
+    gap: 48px;
+    border: 0px 0px 2px 0px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+.project-card{
+    width: 416px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+}
+.project-card h3 {
+    width: 416px;
+    height: 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Newsreader", serif;
+}
+.project-card p {
+    width: 416px;
+    height: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Newsreader", serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+.project-card img {
+    width: 416px;
+    height: 277px;
+    border-top: 2px ;
+}
+.about{
+    width: 900px;
+    height: 208px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    font-family: "Lexend Exa", serif;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.hero2 {
+    text-align: center;
+    padding: 96px 96px;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.hero2 h1 {
+    font-size: 120px;
+    line-height: 120px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-family: "Lexend Exa", serif;
+}
+.hero2 img {
+    width: 1344px;
+    height: 672px;
+    border-radius: 56px;
+}
+.featured-projects {
+    text-align: center;
+    width: 1,344px;
+    height: 650px;
+    gap: 48px;
+    padding: 48px 0px 48px 0px;
+}
+.featured-projects h1 {
+    width: 1344px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Lexend Exa", serif;
+    color: #000000;
+    line-height: 40px;
+}
+.projects-container {
+    width: 1344px;
+    height: 560px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.project-card2 {
+    text-align: center;
+}
+.project-card2 img {
+    width: 416px;
+    height: 420px;
+    border: 2px 0px 0px 0px;
+}
+.project-card2 h2 {
+    width: 392px;
+    height: 24px;
+    font-family: "Lexend Exa", serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.project-card2 p {
+    width: 392px;
+    height: 20px;
+    font-family: "Newsreader", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.project-btn {
+    width: 146px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background-color: #AD7C00;
+    color: white;
+    font-family: "Lexend Exa", serif;
+    border: none;
+}
+.contact-me{
+    width: 1344px;
+    height: 100px;
+    padding: 96px 0px 96px 0px;
+    gap: 96px;
+    border: 0px 0px 2px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.contact-me h2 {
+    width: 624px;
+    height: 52px;
+    font-family: Lexend Exa;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: left;
+}
+.contact-me p{
+    width: 624px;
+    height: 32px;
+    font-family: Newsreader;
+    font-size: 24px;
+    font-weight: 400;
+}
+.contact-form {
+    text-align: center;
+    width: 1344px;
+    height: 500px;
+    padding: 200px 0px 0px 0px;
+    gap: 48px;
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.contact-form h1{
+    height: 32px;
+    font-family: Lexend Exa;
+    font-size: 30px;
+    font-weight: 290;
+    text-align: center;
+}
+.contact-form p{
+    height: 20px;
+    font-family: Newsreader;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.form-inputs{
+    height:64px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otp-box{
+    width: 20px;
+    height: 50px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border:2px solid #00000029;
+    font-family: Newsreader;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.submit-btn{
+    width: 400px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #AD7C00;
+    color: white;
+    font-family: Lexend Exa;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+}
+.skip-link{
+    height: 40px;
+    margin-top: 20px;
+}
+.skip-link a{
+    font-family: Lexend Exa;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #AD7C00;
+}
+.footer{
+    width: 1344px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-header{
+    height: 32px;
+    font-family: Lexend Exa;
+    font-size: 28px;
+    font-weight: 300;
+    color: #00000099;
+}
+.footer-btn{
+    width: 186px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #00000029;
+    background-color:#FFFFFF;
+    font-family: Lexend Exa;
+    font-size: 20px;
+    font-weight: 400; 
+    text-align: center;
+}
+@keyframes Scroller {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+/* .images{
+    animation: Scroller linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+} */
