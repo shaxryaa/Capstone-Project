@@ -211,6 +211,11 @@ a:hover {
     font-family: "Lexend Exa", serif;
     border: none;
 }
+
+.project-btn:hover {
+    cursor: pointer;
+    background-color: #99761f;
+}
 .contact-me{
     width: 1344px;
     height: 100px;
