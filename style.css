@@ -301,6 +301,10 @@ a:hover {
     text-align: center;
     margin-top: 35px;
 }
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #99761f;
+}
 .skip-link{
     height: 40px;
     margin-top: 20px;
