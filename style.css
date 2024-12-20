@@ -341,6 +341,9 @@ a:hover {
     font-weight: 400; 
     text-align: center;
 }
+.footer-btn:hover {
+    cursor: pointer;
+}
 @keyframes Scroller {
     from{
         opacity: 0;
